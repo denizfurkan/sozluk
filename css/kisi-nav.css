@@ -1,0 +1,16 @@
+.liste{
+   padding-top:10px;
+   padding-left:10px;
+}
+
+.liste li{
+    color:#000000;
+}
+.liste a:hover{
+   text-decoration:none;
+   border-bottom:1px solid #d9dadb;
+}
+
+.liste a li span{
+    color:#a0a5a9;
+}

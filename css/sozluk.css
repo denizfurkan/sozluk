@@ -1,0 +1,225 @@
+.genel{
+    width:1200px;
+    height:1080px;
+    margin:0 auto;
+    position:relative;
+    margin-top: -27px;
+}
+
+.genel div{
+    float:left;
+}
+
+.sozluk-icon{
+    position: absolute;
+    margin-left : 100px;
+    margin-top : 4px;
+}
+
+.baslik-sol-frame{
+    font-size:1.3rem;
+    margin-left : 17px;
+   
+}
+
+.sol-taraf{
+    width:250px;
+    height:1080px;
+    border-right:1px solid #dee2e6;
+}
+
+.orta{
+    width:700px;
+    height:1080px;
+    padding-right: 30px;
+    
+}
+
+
+
+.sag-taraf{
+    width:250px;
+    height:1080px;
+    float:right;
+    border-left:1px solid #dee2e6;
+}
+
+.sol-taraf ul li{
+    border:none;
+}
+
+.sol-taraf ul li a{
+    color:#333333;
+}
+
+.sol-taraf ul li a:hover{
+    text-decoration:none;
+}
+
+
+.sol-taraf ul{
+        margin-left: -14px;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: #007fae;
+}
+
+.content-entry{
+    margin-left:30px;
+}
+
+
+.baslik:hover{
+    text-decoration:underline;
+    text-decoration-color:#000;
+}
+
+
+.bkz{
+    color:#007fae;
+}
+
+.bkz:hover{
+    color:#007fae;
+    text-decoration:underline;
+    text-decoration-color:#007fae;
+}
+
+.entry-footer{
+    height:20px;
+    width:635px;
+}
+
+
+.entry-footer a{
+    color:#b0bec5;
+}
+
+
+.dislike:hover{
+    color:red;
+    transition:0.5s;
+}
+
+.face{
+    position: relative;
+    top: 4px;
+}
+
+.face:hover{
+    color:#4267b2;
+    transition:0.5s;
+}
+
+.twitter:hover{
+    color:#1da1f2;
+    transition:0.5s;
+}
+
+.like:hover{
+    color:blue;
+    transition:0.5s;
+}
+
+.fav:hover{
+    color:pink;
+    transition:0.5s;
+}
+
+.fav-sayi{
+    color:#b0bec5;
+    font-size:14px;
+}
+
+.sag-foter{
+    float:right;
+}
+
+.baslik{
+        margin-left: 31px;
+}
+
+.baslik h4:hover{
+    text-decoration:none;
+}
+
+.baslik p:hover{
+    text-decoration:none;
+}
+
+.baslik-lower{
+    text-transform:lowercase;
+}
+
+.content-entry{
+    text-transform:lowercase;
+}
+
+#footer.inverted .copyright-content{
+    background-color:#121212;
+    border-top:2px solid #007fae;
+}
+
+
+#icon-refresh:hover{
+    cursor:pointer;
+    color:#007fae;
+    transition:0.5s;
+}
+
+    
+                @media(max-width:480px){
+                    .genel{
+                        width:375px;
+                    }
+                    
+                    .orta{
+                        width:375px;
+                        
+                    }
+                    
+                    .sol-taraf{
+                        visibility:hidden;
+                        width:0px;
+                        height:0px;
+                    }
+                    
+                    .sag-foter{
+                        position: relative;
+                         right: 282px;
+                    }
+                    
+                    .content-entry{
+                        position: relative;
+                        width:375px;
+                        margin-left:0px;
+                    }
+                    
+                    .sag-taraf{
+                            position: relative;
+                            right: 940px;
+                            width: 100px;
+                            height: 100px;
+                            visibility:hidden;
+                    }
+                    
+                    
+                    #text-search{
+                        width: 143px;
+                        margin-left: 227px;
+                        margin-top: 17px;
+                      }
+                      
+                    .text-icon{
+                        left: -596px;
+                        top: 3px;
+                    }  
+                      
+                      
+                      
+                      
+                    
+                }
+                

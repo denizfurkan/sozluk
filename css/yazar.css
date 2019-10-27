@@ -1,0 +1,50 @@
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.sag-foter{
+    position: relative;
+    left: 118px;
+}
+.content-entry{
+    margin-left:0px;
+}
+
+.entry-baslik{
+    position: relative;
+    top: 0px;
+}
+
+.post-item{
+    width:400px;
+}
+
+.nav-tabs{
+    width:766px;
+}
+
+.row{
+    width: 680px;
+    margin-left: 30px;
+}
+.genel{
+    margin-top:-40px;
+}
+
+.entry-basligi{
+    color:#007fae;
+    font-size:1.4rem;
+}
+
+.entry{
+    color:#777777;
+    font-size:1rem;
+}
+
+.entry-basligi:hover{
+    text-decoration:none;
+}

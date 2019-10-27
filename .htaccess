@@ -1,0 +1,25 @@
+#Options -MultiViews
+RewriteEngine On
+
+
+# external redirect from actual URL to pretty one
+RewriteCond %{THE_REQUEST} /search(?:\.php)?\?q=([^\s&]+) [NC]
+RewriteRule ^ s/%1? [R=302,L,NE]
+# internal forward from pretty URL to actual one         
+RewriteRule ^s/(.+)$ search.php?q=$1 [L,QSA,NC]
+
+# yazar sayfası için seo linki
+RewriteRule ^yazar/([^/]+)$ yazar.php?q=$1 [L,QSA]
+
+#girdi sayfası için seo linki
+RewriteRule ^entry/([^/]+)$ entry.php?entry=$1 [L,QSA]
+
+#düzenle sayfası için seo linki
+RewriteRule ^duzenle/([^/]+)$ duzenle.php?entry=$1 [L,QSA]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# “ea-php56” paketini varsayılan “PHP” programlama dili olarak ayarlayın.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

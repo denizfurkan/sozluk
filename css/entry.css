@@ -1,0 +1,23 @@
+.entry-section form button{
+    padding:4px;
+    background:none;
+    border:1px solid #007fae;
+    color:#007fae;
+    border-radius:4px;
+}
+
+.entry-section form textarea{
+    border:1px solid #007fae;
+    color:#000;
+    width:400px;
+    height:112px;
+    padding:4px;
+}
+
+.entry-section form input[type="submit"]{
+    background:#007fae;
+    color:#ffffff;
+    border-radius:4px;
+    padding:5px;
+}
+
